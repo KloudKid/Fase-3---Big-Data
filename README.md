@@ -21,11 +21,11 @@ URL: https://www.datos.gov.co/resource/dwff-8dr8.csv
 
 El dataset contiene información sobre:
 
-Año 2020-2021
-Departamento
-Municipio
-Especie plantada
-Cantidad de árboles
+-Año 2020-2021
+-Departamento
+-Municipio
+-Especie plantada
+-Cantidad de árboles
 
 # Tecnologías utilizadas
 Apache Spark (PySpark)
