@@ -1,7 +1,10 @@
 # Tarea 3 - Procesamientos de Datos con Apache Spark
  Autor: Juan Camilo López Melo
+ 
  Curso: Big Data
+ 
  Universidad Nacional Abierta y a Distancia – UNAD
+ 
  Año: 2026
 
 # Descripción del proyecto
@@ -15,17 +18,24 @@ Procesamiento en tiempo real (Streaming) simulando flujo de datos mediante Kafka
 
 # Dataset utilizado
 Fuente: Datos Abiertos de Colombia
+
 Nombre: Tipos de siembra en Palmira
+
 Formato: CSV
+
 URL: https://www.datos.gov.co/resource/dwff-8dr8.csv
 
 El dataset contiene información sobre:
 
--Año 2020-2021
--Departamento
--Municipio
--Especie plantada
--Cantidad de árboles
+* Año 2020-2021
+
+* Departamento
+
+* Municipio
+
+* Especie plantada
+
+* Cantidad de árboles
 
 # Tecnologías utilizadas
 Apache Spark (PySpark)
@@ -35,11 +45,11 @@ Ubuntu (VirtualBox)
 PuTTY (conexión remota)
 
 # Estructura del proyecto
-─ batch_siembras.py       # Procesamiento batch
-─ kafka_producer.py       # Simulación de envío de datos (Producer)
-─ streaming.py            # Procesamiento en tiempo real (Consumer con Spark)
-─ siembra_palmira.csv     # Dataset
-─ README.md               # Documentación del proyecto
+* batch_siembras.py       # Procesamiento batch
+* kafka_producer.py       # Simulación de envío de datos (Producer)
+* streaming.py            # Procesamiento en tiempo real (Consumer con Spark)
+* siembra_palmira.csv     # Dataset
+* README.md               # Documentación del proyecto
 
 # Instrucciones de ejecución
   
