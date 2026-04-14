@@ -1,10 +1,10 @@
 # Tarea 3 - Procesamientos de Datos con Apache Spark
-# Autor: Juan Camilo López Melo
-# Curso: Big Data
-# Universidad Nacional Abierta y a Distancia – UNAD
-# Año: 2026
+Autor: Juan Camilo López Melo
+Curso: Big Data
+Universidad Nacional Abierta y a Distancia – UNAD
+Año: 2026
 
-* Descripción del proyecto
+# Descripción del proyecto
 
 Este proyecto implementa una solución de procesamiento de datos utilizando tecnologías de Big Data, específicamente Apache Spark y Apache Kafka, aplicadas a un conjunto de datos abierto sobre tipos de siembra en el municipio de Palmira (Colombia).
 
@@ -13,7 +13,7 @@ El sistema permite realizar:
 Procesamiento Batch para análisis histórico de datos.
 Procesamiento en tiempo real (Streaming) simulando flujo de datos mediante Kafka.
 
-* Dataset utilizado
+# Dataset utilizado
 Fuente: Datos Abiertos de Colombia
 Nombre: Tipos de siembra en Palmira
 Formato: CSV
@@ -27,21 +27,21 @@ Municipio
 Especie plantada
 Cantidad de árboles
 
-* Tecnologías utilizadas
+# Tecnologías utilizadas
 Apache Spark (PySpark)
 Apache Kafka
 Python 3
 Ubuntu (VirtualBox)
 PuTTY (conexión remota)
 
-* Estructura del proyecto
+# Estructura del proyecto
 ─ batch_siembras.py       # Procesamiento batch
 ─ kafka_producer.py       # Simulación de envío de datos (Producer)
 ─ streaming.py            # Procesamiento en tiempo real (Consumer con Spark)
 ─ siembra_palmira.csv     # Dataset
 ─ README.md               # Documentación del proyecto
 
-* Instrucciones de ejecución
+# Instrucciones de ejecución
   
 1. Descargar el dataset
 wget "https://www.datos.gov.co/resource/dwff-8dr8.csv" -O siembra_palmira.csv
