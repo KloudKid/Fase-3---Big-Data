@@ -15,7 +15,7 @@ df = (spark.readStream
 # Convertir a string
 data = df.selectExpr("CAST(value AS STRING)")
 
-# 🔹 Definir esquema (ajústalo si quieres más columnas)
+# 🔹 Definir esquema (ajustable)
 schema = StructType() \
     .add("vigencia", StringType()) \
     .add("departamento", StringType()) \
